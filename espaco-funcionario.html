@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Espaço Funcionário - ONIX Academia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><span>ONIX </span>Academia</a>
+        <nav class="navbar">
+            <a href="index.html">Início</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#espaco">Espaço</a>
+            <a href="index.html#planos">Planos</a>
+            <a href="espaco-aluno.html">Área do Aluno</a>
+            <a href="espaco-funcionario.html">Área do Funcionário</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="sobre" class="sobre">
+
+            <div class="content-form">
+                <h1> <span> Área do Funcionário </span> </h1>
+        </section>
+
+        <section>
+                <div class="split">
+                    <h2>Cadastro de Funcionários</h2>
+                    <form id="form-funcionario">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+
+                        <label for="cpf">Cpf:</label>
+                        <input type="number" id="cpf" name="cpf" required>
+
+                        <label for="cod">Código do Funcionário:</label>
+                        <input type="text" id="cod" name="cod" required>
+
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+
+    <script type="module" src="./Firebase.js"></script>
+</body>
+
+</html>

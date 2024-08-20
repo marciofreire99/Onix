@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Espaço Aluno - ONIX Academia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><span>ONIX </span>Academia</a>
+        <nav class="navbar">
+            <a href="index.html">Início</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#espaco">Espaço</a>
+            <a href="index.html#planos">Planos</a>
+            <a href="espaco-aluno.html">Área do Aluno</a>
+            <a href="espaco-funcionario.html">Área do Funcionário</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="sobre">
+            <div class="content-form">
+                <h1> <span> Área do Aluno </span> </h1>
+            </div>
+        </section>
+
+        <section>
+            <div class="split-container">
+                <div class="split">
+                    <h2>Cadastre-se</h2>
+                    <form id="form-aluno">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+
+                        <label for="cpf">Cpf:</label>
+                        <input type="number" id="cpf" name="cpf" required>
+
+                        <label for="idade">Data de Nascimento:</label>
+                        <input type="date" id="idade" name="idade" required>
+
+                        <label for="planos">Planos:</label>
+                        <label>
+                            <select id="planos" name="planos" required>
+                                <option value="">Escolha o plano desejado:</option>
+                                <option value="opcao1">Onix Mensal - 2024</option>
+                                <option value="opcao2">Onix Trimestral - 2024</option>
+                                <option value="opcao3">Vip Onix Anual - 2024</option>
+                            </select><br>
+                        </label>
+
+                        <br>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+
+    <script type="module" src="./Firebase.js"></script>
+</body>
+
+</html>
